@@ -1,0 +1,43 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: lightblue;
+    --tertiary-color: lightgrey;
+}
+
+/*Heading Styling Begins */
+
+header {
+    padding: 20px 35px 20px 0px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    font-weight:bold;
+    font-size: xx-large;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    color: var(--secondary-color);
+    padding: 10px 15px;
+    font-size: large;
+    text-decoration: underline;
+
+    
+}
+
