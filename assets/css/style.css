@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root {
     --primary-color: darkblue;
     --secondary-color: lightblue;
     --tertiary-color: lightgrey;
+}
+.section-title {
+    width: 10%;
+    font-size: 40px;
 }
 
 /*Heading Styling Begins */
@@ -38,30 +47,62 @@ header nav ul li a {
     font-size: large;
     text-decoration: underline;
 }
+/* Heading Styling Ends */
+
+.section-title {
+    width: 20%;
+    font-size: 40px;
+    text-align: right;
+    border-right: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.intro {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.intro p {
+    margin-left: 10%;
+    width: 70%;
+}
+
 
 .projects {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-evenly;
-    margin: 25%;
+    margin-bottom: 20px;
+    /* justify-content: space-evenly; */
 }
 
-.projects div {
-    width: 35%;
+.projects a:nth-child(2) {
+    width: 64%;
+    height: 200px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: 2px solid var(--secondary-color);
+    background-image: url("../images/run-buddy.jpg");
 }
 
-.projects div:first-child {  
-    width: 80%;
+.projects a:nth-child(3) {
+    width: 31%;
+    height: 200px;
+    background-image: url("../images/horiseon.jpg");
+    border: 2px solid var(--secondary-color);
+
+    margin-left: 30%;
 }
 
-.projects div img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
+.projects a:nth-child(4) {
+    width :31%;
+    height: 200px;
+    margin-left: 2%;
+    border: 2px solid var(--secondary-color);
+    background-image: url("../images/robot-gladiators.jpg");
 }
 
-.bottom-left {
-    position: absolute;
-    top:50%;
-    left: 50%;
+.projects a div {
+    position: relative;
+    width: 200px;
+    height: 65px;
+    background-color: var(--secondary-color);
 }
+
