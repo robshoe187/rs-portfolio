@@ -46,6 +46,7 @@ header nav ul li a {
 }
 /* Heading Styling Ends */
 
+/* About Me Section Starts */
 .intro {
     margin-top: 5%;
 }
@@ -63,6 +64,10 @@ h3 {
     font-size: medium;
     width: 200px;
 }
+
+/*About Me Section Ends */
+
+/*Work Section Starts */
 
 .projects {
     margin:0;
@@ -126,6 +131,9 @@ h3 {
 .robot-gladiators:hover {
     opacity: .5;
 }
+/* Work Section Ends */
+
+/*media responsive section */
  @media only screen and (max-width: 980px) {
     header img {
         width: 100px;
