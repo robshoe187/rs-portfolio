@@ -86,6 +86,13 @@ h3 {
     background-image: url("../images/run-buddy.jpg");
 }
 
+.batters-up {
+    width: 35%;
+    height:200px;
+    border: 2px solid var(--secondary-color);
+    background-image: url("../images/batterup.jpg") ;
+}
+
 .horiseon {
     width: 35%;
     height:200px;
@@ -123,6 +130,9 @@ h3 {
     margin: 0;
 }
 .run-buddy:hover {
+    opacity: .5;
+}
+.batters-up:hover {
     opacity: .5;
 }
 .horiseon:hover {
